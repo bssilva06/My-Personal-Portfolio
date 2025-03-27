@@ -1,0 +1,44 @@
+.important-button{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #C7BEBA;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #C7BEBA;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.important-button:hover{
+    background: #C7BEBA;
+    color: white;
+}
+
+.contact-info{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #66615E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #C7BEBA;
+  border-radius: 4px;
+  background: #F2F0EF;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form textarea {
+  resize: vertical;
+}

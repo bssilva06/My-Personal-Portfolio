@@ -1,0 +1,27 @@
+.about-content{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    color: #66615E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.skills-list li{
+    background: #F2F0Ef;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #C7BEBA;
+}
+
+a:visited{
+    color: inherit;
+}
