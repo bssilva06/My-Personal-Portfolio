@@ -42,3 +42,38 @@
 .form textarea {
   resize: vertical;
 }
+
+.contact-details ul{
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details a{
+  color: #66615e;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover{
+  color: #C7BEBA;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #D8D2D0;
+}
+
+.nav-bar li{
+  list-style: none;
+  display: inline-block;
+  color: #66615E;
+  padding: 0 20px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

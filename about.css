@@ -25,3 +25,39 @@
 a:visited{
     color: inherit;
 }
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #D8D2D0;
+  }
+  
+  .nav-bar li{
+    list-style: none;
+    display: inline-block;
+    color: #66615E;
+    padding: 0 20px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .important-button{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #C7BEBA;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #C7BEBA;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.important-button:hover{
+    background: #C7BEBA;
+    color: white;
+}
